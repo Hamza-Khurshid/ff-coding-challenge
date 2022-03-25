@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.signup-form-container h3 {
+  padding: 30px 0;
+  color: #a9bec4;
+  text-align: center;
+
+  font-size: 20px !important;
+}
+.signup-form-container {
+  height: 100vh;
+  background: aliceblue;
+}
+.signup-form-container form {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  padding: 0 50px;
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.35);
+  background-color: #202020;
+}
+.signup-form-container form * {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+.signup-form-container input {
+  width: 300px;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-weight: 300;
+  border-radius: 5px;
+  position: absolute;
+  transition: 0.5s all;
+  background-color: #4d4d4d;
+}
+.signup-form-container input::placeholder {
+  color: #e5e5e5;
+  font-size: 12px;
+  cursor: pointer;
+  position: absolute;
+  transition: 0.5s all;
+  display: inline-block;
+}
+#signup-username {
+  bottom: 200px;
+}
+
+#signup-password {
+  bottom: 150px;
+}
+#signup-confirm-password {
+  bottom: 100px;
+}
+.signup-form-container button {
+  width: 300px;
+  bottom: 45px;
+  cursor: pointer;
+  padding: 13px 0;
+  position: absolute;
+  border-radius: 5px;
+  background-color: aliceblue;
+}

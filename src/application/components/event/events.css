@@ -1,0 +1,107 @@
+.eventsList {
+  background: aliceblue;
+}
+.events-heading {
+  color: #333;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+}
+
+.header-container {
+  display: flex;
+  max-width: 85%;
+  margin: 0 auto;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-container {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.search-input {
+  width: 30%;
+  height: 35px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.card {
+  margin: 10px;
+  padding: 15px;
+  color: #282c34;
+  min-width: 250px;
+  overflow: hidden;
+  max-width: 48%;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%), 0 1px 12px 2px rgb(0 0 0 / 20%);
+}
+.card b {
+  text-transform: capitalize;
+}
+.card span {
+  margin-top: 4px;
+  display: block;
+}
+.card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.5px;
+}
+
+.pt-5 {
+  padding-top: 10px;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.date,
+.address {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.category {
+  padding: 3px;
+  color: white;
+  margin-bottom: 18px;
+  background-color: #282c34;
+}
+
+.date svg {
+  width: 1.25rem;
+  color: #666666;
+}
+.address svg {
+  width: 2.5rem;
+  color: #666666;
+}
+
+.card-footer {
+  display: flex;
+  color: #111;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1180px) {
+  .cards-container {
+    justify-content: space-around;
+  }
+}
